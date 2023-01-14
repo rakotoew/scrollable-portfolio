@@ -9,5 +9,12 @@
             "description": "You do not have the required permission to access this resource."
         },
         "back": "Go back"
+    },
+    "index": {
+        "hero": {
+            "name": "Ewan Rakotoanosy",
+            "title": "Developer Fullstack",
+            "desc": "Student in computer science currently doing a master degree at University of Savoy"
+        }
     }
 }

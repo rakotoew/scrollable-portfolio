@@ -9,5 +9,12 @@
             "description": "Vous ne possédez pas les permissions nécessaires pour accéder à cette ressource."
         },
         "back": "Revenir en arrière"
+    },
+    "index": {
+        "hero": {
+            "name": "Ewan Rakotoanosy",
+            "title": "Développeur Fullstack",
+            "desc": "Etudiant en Master Informatique à l'Université Savoie Mont Blanc"
+        }
     }
 }
