@@ -7,14 +7,14 @@ export default function App({ Component, pageProps, router }: AppProps) {
     return (
         <>
             <Head>
-                <title>Ewan Rakotoanosy portfolio</title>
+                <title>Ewan Rakotoanosy</title>
 
                 <meta name="subject" content="REPLACE_ME" />
                 <meta name="description" content="REPLACE_ME" />
-                <meta name="author" content="REPLACE_ME" />
+                <meta name="author" content="rakotoew" />
                 <meta property="og:type" content="website" />
-                <meta property="og:url" content="REPLACE_ME" />
-                <meta property="og:title" content="REPLACE_ME" />
+                <meta property="og:url" content="www.rakotoew.fr" />
+                <meta property="og:title" content="Ewan Rakotoanosy portfolio" />
                 <meta property="og:description" content="REPLACE_ME" />
                 <meta property="og:image" content="/assets/banner.png" />
                 <meta property="twitter:card" content="summary_large_image" />

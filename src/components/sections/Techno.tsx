@@ -28,6 +28,16 @@ export default function Techno(): JSX.Element {
                 desc: "Angular is a TypeScript-based open-source web application framework led by the Angular Team at Google and by a community of individuals and corporations.",
                 src: "/icons/logo/logo-angular.png",
             },
+            {
+                name: "Vue.js",
+                desc: "Vue.js is an open-source Model–view–viewmodel JavaScript framework for building user interfaces and single-page applications.",
+                src: "/icons/logo/logo-vue.svg",
+            },
+            {
+                name: "Tailwind CSS",
+                desc: "Tailwind CSS is a utility-first CSS framework for rapidly building custom user interfaces.",
+                src: "/icons/logo/logo-tailwind.png",
+            },
         ],
     };
     const languages: Comps = {
@@ -53,24 +63,14 @@ export default function Techno(): JSX.Element {
                 src: "/icons/logo/logo-c.png",
             },
             {
-                name: "C++",
-                desc: "C++ is a general-purpose programming language created by Bjarne Stroustrup as an extension of the C programming language, or \"C with Classes\".",
-                src: "/icons/logo/logo-c++.svg",
-            },
-            {
                 name: "C#",
                 desc: "C# is a general-purpose, multi-paradigm programming language encompassing strong typing, lexically scoped, imperative, declarative, functional, generic, object-oriented (class-based), and component-oriented programming disciplines.",
-                src: "/icons/logo/logo-csharp.png",
+                src: "/icons/logo/logo-c++.svg",
             },
             {
                 name: "Python",
                 desc: "Python is an interpreted, high-level and general-purpose programming language.",
                 src: "/icons/logo/logo-python.png",
-            },
-            {
-                name: "CSS",
-                desc: "Cascading Style Sheets is a style sheet language used for describing the presentation of a document written in a markup language like HTML.",
-                src: "/icons/logo/logo-css.png",
             },
             {
                 name: "ocaml",
@@ -80,14 +80,14 @@ export default function Techno(): JSX.Element {
         ],
     };
     return (
-        <div className="border-b-2 border-gray-500 pt-6 pb-6 flex flex-col">
-            <span className="text-3xl text-gray-200">Frameworks</span>
+        <div className="border-b-2 border-gray-700 pt-6 pb-6 flex flex-col">
+            <span className="text-3xl text-gray-200 mt-6">Frameworks</span>
             <div className="inline-flex ">
                 {frameworks.comp.map((framework) => {
                     return <TechnoCard key={framework.name} props={framework} />;
                 })}
             </div>
-            <span>Languages</span>
+            <span className="text-3xl text-gray-200 mt-6">Languages</span>
             <div className="flex">
                 {languages.comp.map((language) => {
                     return <TechnoCard key={language.name} props={language} />;
