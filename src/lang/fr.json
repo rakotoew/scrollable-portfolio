@@ -9,5 +9,31 @@
             "description": "Vous ne possédez pas les permissions nécessaires pour accéder à cette ressource."
         },
         "back": "Revenir en arrière"
+    },
+    "index": {
+        "hero": {
+            "name": "Ewan Rakotoanosy",
+            "title": "Développeur Fullstack",
+            "desc": "Etudiant en Master Informatique à l'Université Savoie Mont Blanc"
+        },
+        "about": {
+            "title": "Qui suis-je ?",
+            "p1": "Je suis un étudiant en 1ère année de Master informatique à l'Université Savoie Mont Blanc.",
+            "p2": "Passionné de jeux vidéos \uD83C\uDFAE de stratégie, 4X, RPG, mais aussi de JDR, de mangas, de Romans (SF et Heroic Fantasy)",
+            "p3": "Je fais également du VTT Enduro \uD83D\uDEB5 en compétition au niveau régional et national ainsi que du ski l'hiver \uD83C\uDFC2 et de l'escalade \uD83E\uDDD7"
+        },
+        "study": {
+            "title": "Mon parcours :",
+            "p1": "Licence Informatique à l'Université Savoie Mont Blanc",
+            "p2": "Une année en Erasmus en Irlande \uD83C\uDDEE\uD83C\uDDEA, à Dundalk Institute of technology (BSc Hons in Computing in Software Development)",
+            "p3": "Master Informatique à l'Université Savoie Mont Blanc"
+        },
+        "projects": {
+            "project1": {
+                "title": "",
+                "techno": "",
+                "desc": ""
+            }
+        }
     }
 }

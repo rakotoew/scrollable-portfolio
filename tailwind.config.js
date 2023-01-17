@@ -1,10 +1,12 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-    content: [
-        "./src/**/*.tsx"
-    ],
+    content: ["./src/**/*.tsx"],
     theme: {
-        extend: {},
+        extend: {
+            backgroundImage: {
+                "gradient-radial": "radial-gradient(circle, var(--tw-gradient-stops))",
+            },
+        },
     },
     plugins: [],
 };
