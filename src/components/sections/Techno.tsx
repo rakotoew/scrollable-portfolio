@@ -14,9 +14,14 @@ export default function Techno(): JSX.Element {
     const frameworks: Comps = {
         comp: [
             {
+                name: "Node.js",
+                desc: "Node.js is an open-source, cross-platform, back-end JavaScript runtime environment that runs on the V8 engine and executes JavaScript code outside a web browser.",
+                src: "/icons/logo/logo-node.png",
+            },
+            {
                 name: "Next.js",
                 desc: "Next.js is a React framework that allows you to create static and dynamic websites with React.",
-                src: "/icons/logo/logo-nextjs.svg",
+                src: "/icons/logo/logo-next.png",
             },
             {
                 name: "React",
@@ -31,7 +36,7 @@ export default function Techno(): JSX.Element {
             {
                 name: "Vue.js",
                 desc: "Vue.js is an open-source Model–view–viewmodel JavaScript framework for building user interfaces and single-page applications.",
-                src: "/icons/logo/logo-vue.svg",
+                src: "/icons/logo/logo-vue.png",
             },
             {
                 name: "Tailwind CSS",
@@ -63,9 +68,14 @@ export default function Techno(): JSX.Element {
                 src: "/icons/logo/logo-c.png",
             },
             {
+                name: "C++",
+                desc: "C++ is a general-purpose programming language created by Bjarne Stroustrup as an extension of the C programming language, or 'C with Classes'.",
+                src: "/icons/logo/logo-cpp.png",
+            },
+            {
                 name: "C#",
                 desc: "C# is a general-purpose, multi-paradigm programming language encompassing strong typing, lexically scoped, imperative, declarative, functional, generic, object-oriented (class-based), and component-oriented programming disciplines.",
-                src: "/icons/logo/logo-c++.svg",
+                src: "/icons/logo/logo-csharp.svg",
             },
             {
                 name: "Python",
@@ -82,7 +92,7 @@ export default function Techno(): JSX.Element {
     return (
         <div className="border-b-2 border-gray-700 pt-6 pb-6 flex flex-col">
             <span className="text-3xl text-gray-200 mt-6">Frameworks</span>
-            <div className="inline-flex ">
+            <div className="inline-flex">
                 {frameworks.comp.map((framework) => {
                     return <TechnoCard key={framework.name} props={framework} />;
                 })}

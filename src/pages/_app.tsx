@@ -9,8 +9,8 @@ export default function App({ Component, pageProps, router }: AppProps) {
             <Head>
                 <title>Ewan Rakotoanosy</title>
 
-                <meta name="subject" content="REPLACE_ME" />
-                <meta name="description" content="REPLACE_ME" />
+                <meta name="subject" content="Portfolio Ewan Rakotoanosy" />
+                <meta name="description" content="Portfolio d'Ewan Rakotoanosy, présentant ses qualités de développeurs" />
                 <meta name="author" content="rakotoew" />
                 <meta property="og:type" content="website" />
                 <meta property="og:url" content="www.rakotoew.fr" />

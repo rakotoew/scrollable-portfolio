@@ -15,6 +15,18 @@
             "name": "Ewan Rakotoanosy",
             "title": "Developer Fullstack",
             "desc": "Student in computer science currently doing a master degree at University of Savoy"
+        },
+        "about": {
+            "title": "Who am-I ?",
+            "p1": "",
+            "p2": "",
+            "p3": ""
+        },
+        "study": {
+            "title": "Academic background :",
+            "p1": "Licence Informatique à l'Université Savoie Mont Blanc",
+            "p2": "Une année en Erasmus en Irlande \uD83C\uDDEE\uD83C\uDDEA, à Dundalk Institute of technology (BSc Hons in Computing in Software Development)",
+            "p3": "Master Informatique à l'Université Savoie Mont Blanc"
         }
     }
 }
