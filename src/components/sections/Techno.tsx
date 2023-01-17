@@ -43,6 +43,16 @@ export default function Techno(): JSX.Element {
                 desc: "Tailwind CSS is a utility-first CSS framework for rapidly building custom user interfaces.",
                 src: "/icons/logo/logo-tailwind.png",
             },
+            {
+                name: "Bootstrap",
+                desc: "Bootstrap is a free and open-source CSS framework directed at responsive, mobile-first front-end web development.",
+                src: "/icons/logo/logo-bootstrap.png",
+            },
+            {
+                name: "Spring",
+                desc: "Spring is an application framework and inversion of control container for the Java platform.",
+                src: "/icons/logo/logo-spring.png",
+            },
         ],
     };
     const languages: Comps = {
@@ -83,22 +93,22 @@ export default function Techno(): JSX.Element {
                 src: "/icons/logo/logo-python.png",
             },
             {
-                name: "ocaml",
+                name: "OCaml",
                 desc: "OCaml is an industrial-strength programming language supporting functional, imperative and object-oriented styles.",
                 src: "/icons/logo/logo-ocaml.png",
             },
         ],
     };
     return (
-        <div className="border-b-2 border-gray-700 pt-6 pb-6 flex flex-col">
-            <span className="text-3xl text-gray-200 mt-6">Frameworks</span>
-            <div className="inline-flex">
+        <div className="border-b-2 border-gray-700 pt-6 pb-6 flex flex-col right text-right pr-20 ml-20">
+            <span className="text-3xl text-gray-200 mt-4 mb-4">Frameworks</span>
+            <div className="flex justify-evenly">
                 {frameworks.comp.map((framework) => {
                     return <TechnoCard key={framework.name} props={framework} />;
                 })}
             </div>
-            <span className="text-3xl text-gray-200 mt-6">Languages</span>
-            <div className="flex">
+            <span className="text-3xl text-gray-200 mt-4 mb-4">Languages</span>
+            <div className="flex justify-evenly">
                 {languages.comp.map((language) => {
                     return <TechnoCard key={language.name} props={language} />;
                 })}
