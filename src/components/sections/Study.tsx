@@ -4,7 +4,7 @@ export default function Study(): JSX.Element {
     const t = useTranslations("index.study");
     return (
         <>
-            <div className="ml-20 mt-10">
+            <div className="ml-20 mt-10 z-10">
                 <p className="text-gray-200 text-3xl">{t("title")}</p>
                 <p className="text-gray-300">{t("p1")}</p>
                 <p className="text-gray-300">{t("p2")}</p>

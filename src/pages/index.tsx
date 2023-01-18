@@ -3,10 +3,12 @@ import { GetStaticProps } from "next";
 import Techno from "../components/sections/Techno";
 import About from "../components/sections/About";
 import Study from "../components/sections/Study";
+import StaryBackground from "../components/StaryBackground";
 
 export default function IndexPage(): JSX.Element {
     return (
         <div className="bg-fixed bg-gradient-radial from-cyan-900 to-neutral-800 h-full">
+            <StaryBackground />
             <Hero />
             <About />
             <Study />
