@@ -18,15 +18,15 @@
         },
         "about": {
             "title": "Who am-I ?",
-            "p1": "",
-            "p2": "",
-            "p3": ""
+            "p1": "I'm a student in first year of master degree in computer science at University of Savoy.",
+            "p2": "Passionate about video games \uD83C\uDFAE of strategy, 4X, RPG, but also of mangas, novels (SF qnd Heroic Fantasy).",
+            "p3": "I also do a lot of Enduro and MTB \uD83D\uDEB5 in competition at regional and national level as well as skiing \uD83C\uDFC2 and climbing \uD83E\uDDD7."
         },
         "study": {
             "title": "Academic background :",
-            "p1": "",
-            "p2": "",
-            "p3": ""
+            "p1": "Bachelor degree in computer science at University of Savoy.",
+            "p2": "1 year of Erasmus exchange in Ireland \uD83C\uDDEE\uD83C\uDDEA at Dundalk Institue of technology (BSc Hons in Computing in Software Development).",
+            "p3": "Master degree in computer science at University of Savoy."
         }
     },
     "navbar": {
