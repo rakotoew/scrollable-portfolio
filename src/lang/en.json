@@ -27,15 +27,26 @@
             "p1": "Bachelor degree in computer science at University of Savoy.",
             "p2": "1 year of Erasmus exchange in Ireland \uD83C\uDDEE\uD83C\uDDEA at Dundalk Institue of technology (BSc Hons in Computing in Software Development).",
             "p3": "Master degree in computer science at University of Savoy."
+        },
+        "techno": {
+            "title1": "Langages",
+            "title2": "Frameworks"
+        },
+        "projects": {
+            "project1": {
+                "title": "",
+                "techno": "",
+                "desc": ""
+            }
         }
     },
     "navbar": {
-        "about": "About",
-        "study": "Academic background",
-        "techno": "Technologies",
+        "about": "About Me",
+        "study": "Studies",
+        "techno": "Skills",
         "projects": "Projects",
         "contact": "Contact",
-        "lang": "Fr",
+        "lang": "\uD83C\uDDEB\uD83C\uDDF7 Fr",
         "link": "/fr"
     }
 }

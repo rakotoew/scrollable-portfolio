@@ -28,6 +28,10 @@
             "p2": "Une année en Erasmus en Irlande \uD83C\uDDEE\uD83C\uDDEA, à Dundalk Institute of technology (BSc Hons in Computing in Software Development)",
             "p3": "Master Informatique à l'Université Savoie Mont Blanc"
         },
+        "techno": {
+            "title1": "Languages",
+            "title2": "Frameworks"
+        },
         "projects": {
             "project1": {
                 "title": "",
@@ -38,11 +42,11 @@
     },
     "navbar": {
         "about": "A propos",
-        "study": "Parcours",
-        "techno": "Technologies",
+        "study": "Etudes",
+        "techno": "Compétences",
         "projects": "Projets",
         "contact": "Contact",
-        "lang": "En",
+        "lang": "\uD83C\uDDEC\uD83C\uDDE7 En",
         "link": "/en"
     }
 }

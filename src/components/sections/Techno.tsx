@@ -1,4 +1,5 @@
 import TechnoCard from "../TechnoCard";
+import { useTranslations } from "use-intl";
 
 export interface Comps {
     comp: Comp[];
@@ -99,11 +100,12 @@ export default function Techno(): JSX.Element {
             },
         ],
     };
+    const t = useTranslations("index.techno");
     return (
         <div id="techno" className="border-b-2 border-gray-700 pt-6 pb-6 flex flex-col right text-right pr-20 ml-20">
-            <span className="text-3xl text-gray-200 mt-6 mb-6">Languages</span>
+            <span className="text-3xl text-gray-200 mt-6 mb-6">{t("title1")}</span>
             <TechnoRow comp={languages.comp} />
-            <span className="text-3xl text-gray-200 mt-6 mb-6">Frameworks</span>
+            <span className="text-3xl text-gray-200 mt-6 mb-6">{t("title2")}</span>
             <TechnoRow comp={frameworks.comp} />
         </div>
     );
@@ -112,7 +114,7 @@ export default function Techno(): JSX.Element {
 function TechnoRow(props: Comps): JSX.Element {
     return (
         <>
-            <div className="flex justify-evenly">
+            <div className="grid lg:grid-cols-7 md:grid-cols-5 sm:grid-cols-4 grid-cols-3 ">
                 {props.comp.map((prop) => {
                     return <TechnoCard key={prop.name} props={prop} />;
                 })}
