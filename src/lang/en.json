@@ -28,5 +28,14 @@
             "p2": "",
             "p3": ""
         }
+    },
+    "navbar": {
+        "about": "About",
+        "study": "Academic background",
+        "techno": "Technologies",
+        "projects": "Projects",
+        "contact": "Contact",
+        "lang": "Fr",
+        "link": "/fr"
     }
 }

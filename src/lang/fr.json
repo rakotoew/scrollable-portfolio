@@ -35,5 +35,14 @@
                 "desc": ""
             }
         }
+    },
+    "navbar": {
+        "about": "A propos",
+        "study": "Parcours",
+        "techno": "Technologies",
+        "projects": "Projets",
+        "contact": "Contact",
+        "lang": "En",
+        "link": "/en"
     }
 }
