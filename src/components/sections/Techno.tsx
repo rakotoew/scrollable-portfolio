@@ -101,18 +101,21 @@ export default function Techno(): JSX.Element {
     };
     return (
         <div className="border-b-2 border-gray-700 pt-6 pb-6 flex flex-col right text-right pr-20 ml-20">
-            <span className="text-3xl text-gray-200 mt-4 mb-4">Frameworks</span>
-            <div className="flex justify-evenly">
-                {frameworks.comp.map((framework) => {
-                    return <TechnoCard key={framework.name} props={framework} />;
-                })}
-            </div>
-            <span className="text-3xl text-gray-200 mt-4 mb-4">Languages</span>
-            <div className="flex justify-evenly">
-                {languages.comp.map((language) => {
-                    return <TechnoCard key={language.name} props={language} />;
-                })}
-            </div>
+            <TechnoRow comp={languages.comp} />
+            <TechnoRow comp={frameworks.comp} />
         </div>
+    );
+}
+
+function TechnoRow(props: Comps): JSX.Element {
+    return (
+        <>
+            <span className="text-3xl text-gray-200 mt-6 mb-6">Languages</span>
+            <div className="flex justify-evenly">
+                {props.comp.map((prop) => {
+                    return <TechnoCard key={prop.name} props={prop} />;
+                })}
+            </div>
+        </>
     );
 }

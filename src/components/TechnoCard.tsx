@@ -8,9 +8,9 @@ export interface TechnoCardProps {
 export default function TechnoCard({ props }: TechnoCardProps): JSX.Element {
     return (
         <>
-            <div className="m-1">
-                <Image className="rounded-xl object-cover" src={props.src} alt={props.name} width="125" height="125" sizes="125" />
-                <h3 className="text-center text-xl text-gray-400">{props.name ? props.name : ""}</h3>
+            <div className=" flex-col w-36 h-36">
+                <Image className="rounded-xl absolute" src={props.src} alt={props.name} width="125" height="125" sizes="125" />
+                <h3 className="text-center text-xl text-gray-400 mt-32 pr-3">{props.name ? props.name : ""}</h3>
             </div>
         </>
     );
