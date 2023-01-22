@@ -19,7 +19,7 @@
         "about": {
             "title": "Qui suis-je ?",
             "p1": "Je suis un étudiant en 1ère année de Master informatique à l'Université Savoie Mont Blanc.",
-            "p2": "Passionné de jeux vidéos \uD83C\uDFAE de stratégie, 4X, RPG, mais aussi de JDR, de mangas, de Romans (SF et Heroic Fantasy)",
+            "p2": "Passionné de jeux vidéos \uD83C\uDFAE de stratégie, 4X, RPG, mais aussi de JDR, de mangas, de Romans (SF et Heroic Fantasy).",
             "p3": "Je fais également du VTT Enduro \uD83D\uDEB5 en compétition au niveau régional et national ainsi que du ski l'hiver \uD83C\uDFC2 et de l'escalade \uD83E\uDDD7"
         },
         "study": {
@@ -35,5 +35,14 @@
                 "desc": ""
             }
         }
+    },
+    "navbar": {
+        "about": "A propos",
+        "study": "Parcours",
+        "techno": "Technologies",
+        "projects": "Projets",
+        "contact": "Contact",
+        "lang": "En",
+        "link": "/en"
     }
 }
