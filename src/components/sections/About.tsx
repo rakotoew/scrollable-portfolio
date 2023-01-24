@@ -5,7 +5,7 @@ export default function About(): JSX.Element {
     return (
         <div>
             <div className="ml-20 mt-14 pt-5 mb-2">
-                <p className="text-gray-200 text-3xl mb-8">{t("title")}</p>
+                <p className="text-gray-200 text-xl md:text-2xl lg:text-3xl font-semibold mb-8">{t("title")}</p>
                 <p className="text-gray-300">{t("p1")}</p>
                 <p className="text-gray-300">{t("p2")}</p>
                 <p className="text-gray-300">{t("p3")}</p>
