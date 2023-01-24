@@ -12,8 +12,8 @@ export default function NavBar(): JSX.Element {
                         E.R
                     </a>
                 </div>
-                <div className="w-full flex-grow lg:flex lg:items-center lg:w-auto">
-                    <div className="text-sm lg:flex-grow">
+                <div className="w-full flex-grow flex items-center w-auto hidden sm:hidden md:contents">
+                    <div className="text-sm flex-grow">
                         <a href="#about" className="text-xl mt-4 lg:inline-block lg:mt-0 text-gray-200 hover:text-white mr-4">
                             {t("about")}
                         </a>
@@ -37,9 +37,16 @@ export default function NavBar(): JSX.Element {
                     </a>
                 </div>
                 <div>
-                    <a href={t("link")} className="text-gray-200 text-xl font-semibold hover:text-white mr-4 ml-16 border rounded-xl px-4">
+                    <a href={t("link")} className="text-gray-200 text-xl font-semibold hover:text-white mr-4 border rounded-xl px-4">
                         {t("lang")}
                     </a>
+                </div>
+                <div>
+                    <button className="text-gray-200 hover:text-white mr-8 inline-flex p-1 hover:bg-gray-700 rounded md:hidden ml-auto hover:text-white outline-none nav-toggler">
+                        <svg className="w-6 h-6" stroke="currentColor" fill="none" viewBox="0 0 24 24">
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h16" />
+                        </svg>
+                    </button>
                 </div>
             </nav>
         </div>
