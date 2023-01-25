@@ -102,11 +102,12 @@ export default function Techno(): JSX.Element {
     };
     const t = useTranslations("index.techno");
     return (
-        <div id="techno" className="border-b-2 border-gray-700 pt-6 pb-6 flex flex-col right text-right pr-20 ml-20 mt-32">
+        <div className="border-b-2 border-gray-700 pt-6 pb-6 flex flex-col right text-right pr-20 ml-20 mt-32">
             <span className="text-xl md:text-2xl lg:text-3xl font-semibold text-gray-200 mt-6 mb-6">{t("title1")}</span>
             <TechnoRow comp={languages.comp} />
             <span className="text-xl md:text-2xl lg:text-3xl font-semibold text-gray-200 mt-6 mb-6">{t("title2")}</span>
-            <TechnoRow comp={frameworks.comp} />.
+            <TechnoRow comp={frameworks.comp} />
+            <span id="projects"></span>
         </div>
     );
 }
