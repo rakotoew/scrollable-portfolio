@@ -5,6 +5,7 @@ import About from "../components/sections/About";
 import Study from "../components/sections/Study";
 import StaryBackground from "../components/StaryBackground";
 import NavBar from "../components/NavBar";
+import Projects from "../components/sections/Projects";
 
 export default function IndexPage(): JSX.Element {
     return (
@@ -15,6 +16,7 @@ export default function IndexPage(): JSX.Element {
             <About />
             <Study />
             <Techno />
+            <Projects />
         </div>
     );
 }

@@ -33,10 +33,13 @@
             "title2": "Frameworks"
         },
         "projects": {
+            "title": "My Projects",
             "project1": {
-                "title": "",
-                "techno": "",
-                "desc": ""
+                "title": "Portfolio",
+                "tech": "TypeScript",
+                "framework": "Next.js",
+                "desc": "This portfolio is a personal project that I created to show my skills and my projects. It is a static website that I created with Next.js and Tailwind CSS.",
+                "src": "www.rakotoew.fr"
             }
         }
     },

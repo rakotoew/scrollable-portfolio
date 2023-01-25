@@ -33,10 +33,13 @@
             "title2": "Frameworks"
         },
         "projects": {
+            "title": "Mes projets :",
             "project1": {
-                "title": "",
-                "techno": "",
-                "desc": ""
+                "title": "Portfolio",
+                "tech": "TypeScript",
+                "framework": "Next.js",
+                "desc": "Mon portfolio en ligne réalié avec Next.js et TailwindCSS",
+                "src": "www.rakotoew.fr"
             }
         }
     },
