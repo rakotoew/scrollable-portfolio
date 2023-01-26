@@ -1,4 +1,5 @@
 import TechnoCard from "../TechnoCard";
+import { useTranslations } from "use-intl";
 
 export interface Comps {
     comp: Comp[];
@@ -34,6 +35,11 @@ export default function Techno(): JSX.Element {
                 src: "/icons/logo/logo-angular.png",
             },
             {
+                name: "Spring",
+                desc: "Spring is an application framework and inversion of control container for the Java platform.",
+                src: "/icons/logo/logo-spring.png",
+            },
+            {
                 name: "Vue.js",
                 desc: "Vue.js is an open-source Model–view–viewmodel JavaScript framework for building user interfaces and single-page applications.",
                 src: "/icons/logo/logo-vue.png",
@@ -47,11 +53,6 @@ export default function Techno(): JSX.Element {
                 name: "Bootstrap",
                 desc: "Bootstrap is a free and open-source CSS framework directed at responsive, mobile-first front-end web development.",
                 src: "/icons/logo/logo-bootstrap.png",
-            },
-            {
-                name: "Spring",
-                desc: "Spring is an application framework and inversion of control container for the Java platform.",
-                src: "/icons/logo/logo-spring.png",
             },
         ],
     };
@@ -99,12 +100,14 @@ export default function Techno(): JSX.Element {
             },
         ],
     };
+    const t = useTranslations("index.techno");
     return (
-        <div id="techno" className="border-b-2 border-gray-700 pt-6 pb-6 flex flex-col right text-right pr-20 ml-20">
-            <span className="text-3xl text-gray-200 mt-6 mb-6">Languages</span>
+        <div className="pt-6 pb-6 flex flex-col right text-right pr-20 ml-20 mt-32">
+            <span className="text-xl md:text-2xl lg:text-3xl font-semibold text-gray-200 mt-6 mb-6">{t("title1")}</span>
             <TechnoRow comp={languages.comp} />
-            <span className="text-3xl text-gray-200 mt-6 mb-6">Frameworks</span>
+            <span className="text-xl md:text-2xl lg:text-3xl font-semibold text-gray-200 mt-6 mb-6">{t("title2")}</span>
             <TechnoRow comp={frameworks.comp} />
+            <span id="projects"></span>
         </div>
     );
 }
@@ -112,7 +115,7 @@ export default function Techno(): JSX.Element {
 function TechnoRow(props: Comps): JSX.Element {
     return (
         <>
-            <div className="flex justify-evenly">
+            <div className="grid xl:grid-cols-8 lg:grid-cols-6 md:grid-cols-4 sm:grid-cols-3 grid-cols-2 mb-32">
                 {props.comp.map((prop) => {
                     return <TechnoCard key={prop.name} props={prop} />;
                 })}

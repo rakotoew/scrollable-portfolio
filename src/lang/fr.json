@@ -28,21 +28,49 @@
             "p2": "Une année en Erasmus en Irlande \uD83C\uDDEE\uD83C\uDDEA, à Dundalk Institute of technology (BSc Hons in Computing in Software Development)",
             "p3": "Master Informatique à l'Université Savoie Mont Blanc"
         },
+        "techno": {
+            "title1": "Languages",
+            "title2": "Frameworks"
+        },
         "projects": {
+            "title": "Mes projets :",
             "project1": {
-                "title": "",
-                "techno": "",
-                "desc": ""
+                "title": "Portfolio",
+                "tech": "TypeScript",
+                "framework": "Next.js",
+                "desc": "Mon portfolio en ligne pour montrer mes compétences et projets réalisé avec Next.js et TailwindCSS",
+                "src": "www.rakotoew.fr"
+            },
+            "project2": {
+                "title": "Private Encrypted Cloud",
+                "tech": "TypeScript",
+                "framework": "React, NestJS",
+                "desc": "Project d'un cloud avec un chiffrement bout-en-bout pour stocker et partager des données de façon sécurisée",
+                "src": "pec.ythepaut.com"
+            },
+            "project3": {
+                "title": "BYOD",
+                "tech": "C#",
+                "framework": "Unity",
+                "desc": "Jeux sérieux réalisé avec Unity dans le but d'avoir un jeux multijoueurs crossplatform realise lors d'un projet etudiant pour le CNRS",
+                "src": ""
+            },
+            "project4": {
+                "title": "Save Humanity",
+                "tech": "TypeScript",
+                "framework": "React native",
+                "desc": "Application mobile inspiré de REIGNS realise au cours de l'UE INFO701 - developpement mobile de l'USMB",
+                "src": ""
             }
         }
     },
     "navbar": {
         "about": "A propos",
-        "study": "Parcours",
-        "techno": "Technologies",
+        "study": "Etudes",
+        "techno": "Compétences",
         "projects": "Projets",
         "contact": "Contact",
-        "lang": "En",
+        "lang": "\uD83C\uDDEC\uD83C\uDDE7 En",
         "link": "/en"
     }
 }
