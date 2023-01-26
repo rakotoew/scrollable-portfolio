@@ -38,7 +38,28 @@
                 "title": "Portfolio",
                 "tech": "TypeScript",
                 "framework": "Next.js",
-                "desc": "This portfolio is a personal project that I created to show my skills and my projects. It is a static website that I created with Next.js and Tailwind CSS.",
+                "desc": "This portfolio is a personal project that I created to show my skills and my projects. Created with Next.js and Tailwind CSS.",
+                "src": "www.rakotoew.fr"
+            },
+            "project2": {
+                "title": "Projet 2 TODO",
+                "tech": "Techno 2 TODO",
+                "framework": "Framework  TODO",
+                "desc": "Description du projet 2 TODO",
+                "src": "www.rakotoew.fr"
+            },
+            "project3": {
+                "title": "Projet 3 TODO",
+                "tech": "Techno 3 TODO",
+                "framework": "Framework  TODO",
+                "desc": "Description du projet 3 TODO",
+                "src": "www.rakotoew.fr"
+            },
+            "project4": {
+                "title": "Projet 4 TODO",
+                "tech": "Techno 4 TODO",
+                "framework": "Framework  TODO",
+                "desc": "Description du projet 4 TODO",
                 "src": "www.rakotoew.fr"
             }
         }

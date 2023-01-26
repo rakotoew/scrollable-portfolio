@@ -9,7 +9,7 @@ import Projects from "../components/sections/Projects";
 
 export default function IndexPage(): JSX.Element {
     return (
-        <div className="bg-fixed bg-gradient-radial from-cyan-900 to-neutral-800 h-full">
+        <div className="bg-fixed bg-gradient-radial-bot from-cyan-900 to-neutral-800 h-full">
             <StaryBackground />
             <NavBar />
             <Hero />
