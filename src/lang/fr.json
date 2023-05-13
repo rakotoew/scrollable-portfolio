@@ -61,6 +61,13 @@
                 "framework": "React native",
                 "desc": "Application mobile inspiré de REIGNS realise au cours de l'UE INFO701 - developpement mobile de l'USMB",
                 "src": ""
+            },
+            "project5": {
+                "title": "Rec'Appel",
+                "tech": "TypeScript, Java",
+                "framework": "Angular, Spring",
+                "desc": "Description du projet 5 TODO",
+                "src": ""
             }
         }
     },

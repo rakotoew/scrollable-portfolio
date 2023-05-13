@@ -45,13 +45,34 @@ export default function Projects(): JSX.Element {
                 desc: t("project4.desc"),
                 src: t("project4.src"),
             },
+            {
+                name: t("project5.title"),
+                tech: t("project5.tech"),
+                framework: t("project5.framework"),
+                desc: t("project5.desc"),
+                src: t("project5.src"),
+            },
         ],
     };
     return (
         <div id="project">
             <div className="ml-10 mt-14 z-10 pb-10">
-                <p className="ml-10 text-gray-200 text-xl md:text-2xl lg:text-3xl font-semibold mb-8 ">{t("title")}</p>
-                <div className="grid xl:grid-cols- lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 mr-10">
+                <p
+                    className="ml-10 text-gray-200 text-xl
+                md:text-2xl
+                lg:text-3xl
+                font-semibold mb-8 "
+                >
+                    {t("title")}
+                </p>
+                <div
+                    className="grid
+                xl:grid-cols-
+                lg:grid-cols-4
+                md:grid-cols-3
+                sm:grid-cols-2
+                grid-cols-1 mr-10"
+                >
                     {projects.projects.map((project) => (
                         <ProjectCard key={project.name} props={project} />
                     ))}
