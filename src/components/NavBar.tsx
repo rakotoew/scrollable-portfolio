@@ -30,25 +30,9 @@ export default function NavBar(): JSX.Element {
                         </a>
                     </div>
                 </div>
-                <div className="flex items-center">
-                    <a href="https://www.github.com/rakotoew" className="text-gray-200 hover:text-white mr-8">
-                        <FontAwesomeIcon icon={faGithub} size="2x" />
-                    </a>
-                    <a href="https://www.linkedin.com/in/ewan-rakotoanosy-844938249/" className="text-gray-200 hover:text-white mr-8">
-                        <FontAwesomeIcon icon={faLinkedin} size="2x" />
-                    </a>
-                    <a href="#contact" className="text-gray-200 hover:text-white mr-8">
-                        <FontAwesomeIcon icon={faEnvelope} size="2x" />
-                    </a>
-                </div>
-                <div>
-                    <a href={t("link")} className="text-gray-200 text-xl font-semibold hover:text-white mr-4 border rounded-xl px-4">
-                        {t("lang")}
-                    </a>
-                </div>
-                <div>
+                <div className="w-full flex-grow items-center w-auto md:hidden">
                     <button
-                        className="text-gray-200 hover:text-white mr-2 inline-flex p-1 hover:bg-gray-700 rounded md:hidden ml-auto hover:text-white outline-none nav-toggler"
+                        className="text-gray-200 hover:text-white mr-2 inline-flex p-1 hover:bg-gray-700 rounded lg:hidden ml-auto hover:text-white outline-none nav-toggler"
                         onClick={() => setDropdownOpen(!dropdownOpen)}
                     >
                         <svg className="w-6 h-6" stroke="currentColor" fill="none" viewBox="0 0 24 24">
@@ -91,6 +75,22 @@ export default function NavBar(): JSX.Element {
                             </a>
                         </div>
                     </div>
+                </div>
+                <div className="flex items-center">
+                    <a href="https://www.github.com/rakotoew" className="text-gray-200 hover:text-white mr-8">
+                        <FontAwesomeIcon icon={faGithub} size="2x" />
+                    </a>
+                    <a href="https://www.linkedin.com/in/ewan-rakotoanosy-844938249/" className="text-gray-200 hover:text-white mr-8">
+                        <FontAwesomeIcon icon={faLinkedin} size="2x" />
+                    </a>
+                    <a href="#contact" className="text-gray-200 hover:text-white mr-8">
+                        <FontAwesomeIcon icon={faEnvelope} size="2x" />
+                    </a>
+                </div>
+                <div>
+                    <a href={t("link")} className="text-gray-200 text-xl font-semibold hover:text-white border rounded-xl px-4">
+                        {t("lang")}
+                    </a>
                 </div>
             </nav>
         </div>
