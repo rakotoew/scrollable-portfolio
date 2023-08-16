@@ -6,6 +6,7 @@ import Study from "../components/sections/Study";
 import StaryBackground from "../components/StaryBackground";
 import NavBar from "../components/NavBar";
 import Projects from "../components/sections/Projects";
+import LeftToRightSeparator from "../components/separators/LeftToRightSeparator";
 
 export default function IndexPage(): JSX.Element {
     return (
@@ -15,6 +16,7 @@ export default function IndexPage(): JSX.Element {
             <Hero />
             <About />
             <Study />
+            <LeftToRightSeparator />
             <Techno />
             <Projects />
         </div>

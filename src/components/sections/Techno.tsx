@@ -40,9 +40,9 @@ export default function Techno(): JSX.Element {
                 src: "/icons/logo/logo-spring.png",
             },
             {
-                name: "Vue.js",
-                desc: "Vue.js is an open-source Model–view–viewmodel JavaScript framework for building user interfaces and single-page applications.",
-                src: "/icons/logo/logo-vue.png",
+                name: "Nest.js",
+                desc: "Nest.js is a framework for building efficient, scalable Node.js server-side applications.",
+                src: "/icons/logo/logo-nestjs.png",
             },
             {
                 name: "Tailwind CSS",
@@ -50,9 +50,9 @@ export default function Techno(): JSX.Element {
                 src: "/icons/logo/logo-tailwind.png",
             },
             {
-                name: "Bootstrap",
-                desc: "Bootstrap is a free and open-source CSS framework directed at responsive, mobile-first front-end web development.",
-                src: "/icons/logo/logo-bootstrap.png",
+                name: "Pico.css",
+                desc: "Pico.css is a tiny CSS framework designed to build quick, modern and responsive websites.",
+                src: "/icons/logo/logo-picocss.png",
             },
         ],
     };
@@ -102,7 +102,7 @@ export default function Techno(): JSX.Element {
     };
     const t = useTranslations("index.techno");
     return (
-        <div className="pt-6 pb-6 flex flex-col right text-right pr-20 ml-20 mt-32">
+        <div className="pt-6 pb-6 flex flex-col right text-right pr-10 min-[500px]:pr-20 ml-10 min-[500px]:ml-20 mt-32">
             <span className="text-xl md:text-2xl lg:text-3xl font-semibold text-gray-200 mt-6 mb-6">{t("title1")}</span>
             <TechnoRow comp={languages.comp} />
             <span className="text-xl md:text-2xl lg:text-3xl font-semibold text-gray-200 mt-6 mb-6">{t("title2")}</span>

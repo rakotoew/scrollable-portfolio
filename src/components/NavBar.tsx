@@ -1,6 +1,6 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
-import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import { faEnvelope, faGlobe } from "@fortawesome/free-solid-svg-icons";
 import { useTranslations } from "use-intl";
 import { useState } from "react";
 export default function NavBar(): JSX.Element {
@@ -30,7 +30,7 @@ export default function NavBar(): JSX.Element {
                         </a>
                     </div>
                 </div>
-                <div className="w-full flex-grow items-center w-auto md:hidden">
+                <div className="flex-grow items-center w-auto md:hidden">
                     <button
                         className="text-gray-200 hover:text-white mr-2 inline-flex p-1 hover:bg-gray-700 rounded lg:hidden ml-auto hover:text-white outline-none nav-toggler"
                         onClick={() => setDropdownOpen(!dropdownOpen)}
@@ -78,18 +78,19 @@ export default function NavBar(): JSX.Element {
                 </div>
                 <div className="flex items-center">
                     <a href="https://www.github.com/rakotoew" className="text-gray-200 hover:text-white mr-8">
-                        <FontAwesomeIcon icon={faGithub} size="2x" />
+                        <FontAwesomeIcon icon={faGithub} size="xl" />
                     </a>
                     <a href="https://www.linkedin.com/in/ewan-rakotoanosy-844938249/" className="text-gray-200 hover:text-white mr-8">
-                        <FontAwesomeIcon icon={faLinkedin} size="2x" />
+                        <FontAwesomeIcon icon={faLinkedin} size="xl" />
                     </a>
                     <a href="#contact" className="text-gray-200 hover:text-white mr-8">
-                        <FontAwesomeIcon icon={faEnvelope} size="2x" />
+                        <FontAwesomeIcon icon={faEnvelope} size="xl" />
                     </a>
                 </div>
                 <div>
-                    <a href={t("link")} className="text-gray-200 text-xl font-semibold hover:text-white border rounded-xl px-4">
-                        {t("lang")}
+                    <a href={t("link")} className="text-gray-200 text-xl font-semibold hover:text-white border rounded-xl px-2">
+                        <FontAwesomeIcon icon={faGlobe} size="sm"/>
+                        <span>{t("lang")}</span>
                     </a>
                 </div>
             </nav>
