@@ -75,6 +75,20 @@
                 "framework": "Spring",
                 "desc": "Description du projet 6 TODO",
                 "src": ""
+            },
+            "project7": {
+                "title": "Saisie VTT Pays de Gavot",
+                "tech": "TypeScript",
+                "framework": "Angular",
+                "desc": "Description du projet 7 TODO",
+                "src": ""
+            },
+            "project8": {
+                "title": "Saisie VTT Pays de Gavot API",
+                "tech": "TypeScript",
+                "framework": "NestJS",
+                "desc": "Description du projet 8 TODO",
+                "src": ""
             }
         }
     },
