@@ -40,9 +40,9 @@ export default function Techno(): JSX.Element {
                 src: "/icons/logo/logo-spring.png",
             },
             {
-                name: "Vue.js",
-                desc: "Vue.js is an open-source Model–view–viewmodel JavaScript framework for building user interfaces and single-page applications.",
-                src: "/icons/logo/logo-vue.png",
+                name: "Nest.js",
+                desc: "Nest.js is a framework for building efficient, scalable Node.js server-side applications.",
+                src: "/icons/logo/logo-nestjs.png",
             },
             {
                 name: "Tailwind CSS",
@@ -50,9 +50,9 @@ export default function Techno(): JSX.Element {
                 src: "/icons/logo/logo-tailwind.png",
             },
             {
-                name: "Bootstrap",
-                desc: "Bootstrap is a free and open-source CSS framework directed at responsive, mobile-first front-end web development.",
-                src: "/icons/logo/logo-bootstrap.png",
+                name: "Pico.css",
+                desc: "Pico.css is a tiny CSS framework designed to build quick, modern and responsive websites.",
+                src: "/icons/logo/logo-picocss.png",
             },
         ],
     };
