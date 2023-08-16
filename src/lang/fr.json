@@ -68,6 +68,20 @@
                 "framework": "Angular, Spring",
                 "desc": "Description du projet 5 TODO",
                 "src": ""
+            },
+            "project6": {
+                "title": "Rec'Appel API",
+                "tech": "Java",
+                "framework": "Spring",
+                "desc": "Description du projet 6 TODO",
+                "src": ""
+            },
+            "project7": {
+                "title": "Rec'Appel API",
+                "tech": "Java",
+                "framework": "Spring",
+                "desc": "Description du projet 6 TODO",
+                "src": ""
             }
         }
     },
