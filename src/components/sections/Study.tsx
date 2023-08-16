@@ -5,7 +5,7 @@ export default function Study(): JSX.Element {
     return (
         <div>
             <div
-                className="ml-6 mt-14 z-10 mb-5
+                className="ml-6 mt-16 z-10 mb-5
             sm:mt-16 sm:ml-8
             md:mt-18 md:ml-10
             lg:mt-20 lg:ml-14
@@ -45,12 +45,7 @@ export default function Study(): JSX.Element {
                     {t("p3")}
                 </p>
             </div>
-            <span
-                id="techno"
-                className="absolute ml-40 w-0.5 h-10 bg-gray-400 mt-1
-            lg:h-14 lg:w-1
-            xl:h-20"
-            ></span>
+            <span id="techno"></span>
         </div>
     );
 }
