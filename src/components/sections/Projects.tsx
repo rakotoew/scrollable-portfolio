@@ -11,6 +11,7 @@ export interface Project {
     framework: string;
     desc: string;
     src: string;
+    imagesrc: string;
 }
 
 export default function Projects(): JSX.Element {
@@ -23,6 +24,7 @@ export default function Projects(): JSX.Element {
                 framework: t("project1.framework"),
                 desc: t("project1.desc"),
                 src: t("project1.src"),
+                imagesrc: t("project1.imagesrc"),
             },
             {
                 name: t("project2.title"),
@@ -30,6 +32,7 @@ export default function Projects(): JSX.Element {
                 framework: t("project2.framework"),
                 desc: t("project2.desc"),
                 src: t("project2.src"),
+                imagesrc: t("project2.imagesrc"),
             },
             {
                 name: t("project3.title"),
@@ -37,6 +40,7 @@ export default function Projects(): JSX.Element {
                 framework: t("project3.framework"),
                 desc: t("project3.desc"),
                 src: t("project3.src"),
+                imagesrc: t("project3.imagesrc"),
             },
             {
                 name: t("project4.title"),
@@ -44,6 +48,7 @@ export default function Projects(): JSX.Element {
                 framework: t("project4.framework"),
                 desc: t("project4.desc"),
                 src: t("project4.src"),
+                imagesrc: t("project4.imagesrc"),
             },
             {
                 name: t("project5.title"),
@@ -51,6 +56,7 @@ export default function Projects(): JSX.Element {
                 framework: t("project5.framework"),
                 desc: t("project5.desc"),
                 src: t("project5.src"),
+                imagesrc: t("project5.imagesrc"),
             },
             {
                 name: t("project6.title"),
@@ -58,6 +64,7 @@ export default function Projects(): JSX.Element {
                 framework: t("project6.framework"),
                 desc: t("project6.desc"),
                 src: t("project6.src"),
+                imagesrc: t("project6.imagesrc"),
             },
             {
                 name: t("project7.title"),
@@ -65,6 +72,7 @@ export default function Projects(): JSX.Element {
                 framework: t("project7.framework"),
                 desc: t("project7.desc"),
                 src: t("project7.src"),
+                imagesrc: t("project7.imagesrc"),
             },
             {
                 name: t("project8.title"),
@@ -72,6 +80,7 @@ export default function Projects(): JSX.Element {
                 framework: t("project8.framework"),
                 desc: t("project8.desc"),
                 src: t("project8.src"),
+                imagesrc: t("project8.imagesrc"),
             },
         ],
     };
@@ -86,16 +95,9 @@ export default function Projects(): JSX.Element {
                 >
                     {t("title")}
                 </p>
-                <div
-                    className="grid
-                xl:grid-cols-
-                lg:grid-cols-4
-                md:grid-cols-3
-                sm:grid-cols-2
-                grid-cols-1 mr-10"
-                >
-                    {projects.projects.map((project) => (
-                        <ProjectCard key={project.name} props={project} />
+                <div className="flex-col mr-10 ml-10">
+                    {projects.projects.map((project, index) => (
+                        <ProjectCard key={project.name} props={project} index={index} />
                     ))}
                 </div>
             </div>
