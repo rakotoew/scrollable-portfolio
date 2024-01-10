@@ -68,33 +68,17 @@
             },
             "project5": {
                 "title": "Rec'Appel",
-                "tech": "TypeScript",
-                "framework": "Angular",
+                "tech": "TypeScript, Java, MySQL",
+                "framework": "Angular, Spring",
                 "desc": "Description du projet 5 TODO",
                 "src": "",
                 "imagesrc": "/profile.png"
             },
             "project6": {
-                "title": "Rec'Appel API",
-                "tech": "Java, MySQL",
-                "framework": "Spring",
-                "desc": "Description du projet 6 TODO",
-                "src": "",
-                "imagesrc": "/profile.png"
-            },
-            "project7": {
                 "title": "Saisie VTT Pays de Gavot",
-                "tech": "TypeScript",
-                "framework": "Angular",
-                "desc": "Application Web réaliser pour le club VTT Pays de Gavot. Elle permet de gérer l'épreuve Trial d'une course organisée par le club.",
-                "src": "",
-                "imagesrc": "/profile.png"
-            },
-            "project8": {
-                "title": "Saisie VTT Pays de Gavot API",
                 "tech": "TypeScript, MySQL",
-                "framework": "NestJS",
-                "desc": "API REST pour l'application Saisie VTT Pays de Gavot.",
+                "framework": "Angular, NestJS",
+                "desc": "Application Web réaliser pour le club VTT Pays de Gavot. Elle permet de gérer l'épreuve Trial d'une course organisée par le club.",
                 "src": "",
                 "imagesrc": "/profile.png"
             }

@@ -65,23 +65,7 @@ export default function Projects(): JSX.Element {
                 desc: t("project6.desc"),
                 src: t("project6.src"),
                 imagesrc: t("project6.imagesrc"),
-            },
-            {
-                name: t("project7.title"),
-                tech: t("project7.tech"),
-                framework: t("project7.framework"),
-                desc: t("project7.desc"),
-                src: t("project7.src"),
-                imagesrc: t("project7.imagesrc"),
-            },
-            {
-                name: t("project8.title"),
-                tech: t("project8.tech"),
-                framework: t("project8.framework"),
-                desc: t("project8.desc"),
-                src: t("project8.src"),
-                imagesrc: t("project8.imagesrc"),
-            },
+            }
         ],
     };
     return (
